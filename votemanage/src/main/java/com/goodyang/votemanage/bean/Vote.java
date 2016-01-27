@@ -2,9 +2,9 @@ package com.goodyang.votemanage.bean;
 
 
 public class Vote {
-	private int voteID;		//ͶƱID
-	private String voteName;	//ͶƱ���
-	private int channelID;	//Ƶ��ID
+	private int voteID;		
+	private String voteName;	
+	private int channelID;	
 	public int getVoteID() {
 		return voteID;
 	}

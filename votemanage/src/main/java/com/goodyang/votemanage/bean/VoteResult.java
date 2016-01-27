@@ -3,7 +3,7 @@ package com.goodyang.votemanage.bean;
 
 import java.util.List;
 
-public class VoteResult {
+public class VoteResult { 
 	private Vote vote;
 	private List<VoteOption> voteOptions;
 	public Vote getVote() {

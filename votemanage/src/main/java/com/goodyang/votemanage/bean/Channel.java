@@ -2,8 +2,8 @@ package com.goodyang.votemanage.bean;
 
 
 public class Channel {
-	private int channelID;		//Ƶ��ID
-	private String channelName;	//Ƶ�����
+	private int channelID;		
+	private String channelName;	
 	public int getChannelID() {
 		return channelID;
 	}
