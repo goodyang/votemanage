@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 	private static final String DBDRIVER = "com.mysql.jdbc.Driver";
-	private static final String DBURL = "jdbc:mysql://localhost:3306/db_affairmanage?useUnicode=true&characterEncoding=utf8";
+	private static final String DBURL = "jdbc:mysql://localhost:3306/db_votemanage?useUnicode=true&characterEncoding=utf8";
 	private static final String DBUSER = "root";
 	private static final String DBPASSWORD = "mysql2013";
 	

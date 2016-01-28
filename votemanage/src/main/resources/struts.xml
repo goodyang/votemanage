@@ -9,5 +9,9 @@
 		<action name="addVote" class="com.goodyang.votemanage.action.AddVoteAction">
 			<result name="success">/admin/addVote.jsp</result>
 		</action>
+		
+		<action name="showVote" class="com.goodyang.votemanage.action.ShowVoteAction">
+			<result name="success">/admin/showVote.jsp</result>
+		</action>
 	</package>
 </struts>
