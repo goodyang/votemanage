@@ -13,5 +13,26 @@
 		<action name="showVote" class="com.goodyang.votemanage.action.ShowVoteAction">
 			<result name="success">/admin/showVote.jsp</result>
 		</action>
+		
+		<action name="deleteVote" class="com.goodyang.votemanage.action.DeleteVoteAction">
+			<result name="success" type="chain">showVote</result>
+		</action>
+		
+		<action name="showVoteByChannel" class="com.goodyang.votemanage.action.ShowVoteByChannelAction">
+			<result name="success">index.jsp</result>
+			<result name="input">index.jsp</result>
+		</action>
+		
+		<action name="doVote" class="com.goodyang.votemanage.action.DoVoteAction">
+			<result name="success" type="chain">voteResult</result>
+			<result name="input" type="chain">showVoteByChannel</result>
+		</action>
+		
+		<action name="voteResult" class="com.goodyang.votemanage.action.VoteResultAction">
+			<result name="success" type="chart">
+				<param name="width">800</param>
+				<param name="height">600</param>
+			</result>
+		</action>
 	</package>
 </struts>
